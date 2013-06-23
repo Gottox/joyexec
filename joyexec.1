@@ -1,0 +1,19 @@
+.TH JOYEXEC 1 joyexec\-VERSION
+.SH NAME
+joyexec \- Joystick Exec Daemon
+.SH SYNOPSIS
+.B joyexec
+.RB [ \-c\  config]\ [ \-f | \-d ]
+.SH DESCRIPTION
+.BR joyexec
+is a simple daemon which executes user defined commandos on joystick events.
+.SH OPTIONS
+.TP
+.B \-c config
+load config file from this location instead of /etc/joyexec.conf
+.TP
+.B \-f
+forks to background
+.TP
+.B \-d
+dumps events to stdout. Does not execute anything.
